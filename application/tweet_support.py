@@ -22,10 +22,10 @@ class TweetSearchSupport(object):
     ts = None
     def __init__(self):
         self.ts = TwitterSearch(
-                consumer_key = 'Jn0vFPTkewSek85vb1USoCQf4',
-                consumer_secret = 'VnFh6AvyiojNKVFUryQXWaKKzHsvBsVnebjQWDcOCfftsjgO9J',
-                access_token = '100506002-67IOcA0mZehNVmJlqmkOIB4QsJfjlXKK1OX0ylqO',
-                access_token_secret = 'j72a7volEPzuwRAmu44j467IyxdZHpgIA1fPxU6AgWDy1')
+                    consumer_key= 'Eu0zKf7WjndxhjGdNNbMIjnlz',
+                    consumer_secret = 'vl0MwOnbbnCLumjUbZ4KVGUbxIL5hTIID8vAZKBKad46abWMnb',
+                    access_token_key = '100506002-alQkGy6YgNrFLHLCB75WZtnWqmdSzcW28x7ajL7i',
+                    access_token_secret='kxX9cPBUU6PRHAqgmzZsXqpGg1kD2JF4j6YojzE0OozvC')
     def get_ts(self):
         return self.ts
 

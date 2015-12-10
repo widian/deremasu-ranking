@@ -76,7 +76,7 @@ def test_event():
         tss = TweetSearchSupport()
         ts = tss.get_ts()
         today = datetime.datetime.now().date()
-        tso = tss.generate_tso([u"アニメ".encode("UTF-8")],today, True)
+        tso = tss.generate_tso([u"미오".encode("UTF-8")],today, True)
         count = 0
         for tweet in ts.search_tweets_iterable(tso):
             tweet_text = ('%s @%s tweeted: %s' % (tweet['created_at'], tweet['user']['screen_name'], tweet['text']))
